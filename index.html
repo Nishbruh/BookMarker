@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>Bookmarker</title>
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body onload="fetchBookmarks()">
+    <div class="container">
+        <h1 class="h3 mb-3 font-weight-normal ">Book<span class="text-primary">Mark</span>er</h1>
+        <hr>
+        <div class="container2">
+            <form id="myForm">
+                <div class="text-center mb-4">
+                    <p class="h4">Bookmark your Favourite Sites</p>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" id="siteName" class="form-control" placeholder="Website Name" autofocus>
+                    <label for="inputSite">Site Name</label>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" id="siteUrl" class="form-control" placeholder="Website URL">
+                    <label for="inputsiteurl">Site URL</label>
+                </div>
+                <div class="btnpos d-flex justify-content-center">
+                    <button class="btn btn-md btn-primary" type="submit">Bookmark</button>
+                </div>
+            </form>
+        </div>
+        <div class="row marketing">
+            <div class="col-lg-12">
+                <div id="bookmarksResults">
+
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <p class="mt-5 mb-3 text-muted text-center">&copy; 2019 Bookmarker, Inc.</p>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

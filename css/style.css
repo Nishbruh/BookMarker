@@ -1,0 +1,26 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/*container styling*/
+.container {
+    width: 50%;
+}
+
+/*Form-container styling*/
+.container2 {
+    background-color: rgba(0, 0, 0, .1);
+    margin-bottom: 100px;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+.well {
+    background-color: rgba(0, 0, 0, .1);
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(196, 196, 196);
+}
